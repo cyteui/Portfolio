@@ -1,10 +1,10 @@
-*{
+* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
-body{
+body {
   background-color: #292A2B;
   font-family: 'poppins', sans-serif;
   color: white;
@@ -12,7 +12,11 @@ body{
   box-sizing: border-box;
 }
 
-.card{
+.container-services {
+  margin: 0 20%;
+}
+
+.card {
   background-color: #292A2B;
   padding: 4%;
   border-radius: 15px;
@@ -21,17 +25,19 @@ body{
   transition: margin-top 0.5s ease;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 4%;
   width: 100%;
+  cursor: pointer;
 }
 
-.card:hover{
+.card:hover {
   background-color: #343536;
   border: none;
   box-shadow: 0px 10px 20px #00000033;
   margin-top: 8%;
 }
 
-header{
+header {
   display: flex;
   justify-content: space-between;
   position: fixed;
@@ -42,40 +48,40 @@ header{
 }
 
 
-main{
+main {
   margin-bottom: 5%;
 }
 
-.colonnes1{
+.colonnes1 {
   display: flex;
 }
 
-.page-article h2{
+.page-article h2 {
   text-align: center;
 }
 
-.colonnes2{
+.colonnes2 {
   display: flex;
 }
 
-.colonnes3{
+.colonnes3 {
   display: flex;
   margin: 5% 20% 5% 20%;
   justify-content: center;
   align-items: flex-start;
 }
 
-.colonnes3 p{
+.colonnes3 p {
   font-size: 14px;
   font-weight: 300;
   line-height: 1.8;
 }
 
-.page-article{
-  margin: auto;
+.page-article {
+  margin: auto 15%;
 }
 
-.page-article p{
+.page-article p {
   background-color: rgba(255, 255, 255, 0.1);
   width: 50%;
   padding: 6px;
@@ -84,100 +90,113 @@ main{
   margin: auto;
 }
 
-.page-article h3{
+.page-article h3 {
   padding: 6px;
   text-align: center;
   margin: auto;
   margin-bottom: 1%;
 }
 
-footer{
+footer {
   padding: 2%;
   background-color: #292A2B;
   color: white;
   text-align: center;
 }
 
-h1{
+h1 {
   font-size: 50px;
   font-weight: 700;
 }
 
-h2{
+h2 {
   font-size: 65px;
   font-weight: 600;
   margin-bottom: 2%;
 }
 
-article h1{
+article h1 {
   margin-bottom: 3%;
 }
 
-p{
+p {
   font-size: 16px;
   font-weight: 200;
   margin-bottom: 4%;
 }
 
-a{
+a {
   color: white;
-  margin:2%;
+  margin: 2%;
   text-decoration: none;
 }
 
-a:hover{
-text-decoration: underline;
-display: right;
-color: #0FAE96;
+a:hover {
+  text-decoration: underline;
+  display: right;
+  color: #0FAE96;
 
 }
 
-article h2{
+article h2 {
   text-align: center;
   margin-bottom: 5%;
 }
 
-section{
+section {
   text-align: center;
 }
 
-.section3 h2{
+.section3 h2 {
   margin-bottom: 5%;
 }
 
-h3{
+h3 {
   font-size: 20px;
 }
 
-.container-fluid{
+.container-fluid {
   background-color: #292A2B;
   width: 75%;
 }
 
-.card img{
+.card img {
   width: 30%;
   margin-bottom: 8%;
 }
 
-.card-title{
+.card-title {
   margin-bottom: 8%;
 }
 
 
-.rs{
+.rs {
   width: 100%;
 }
 
-.rs:hover{
+.rs:hover {
   transform: scale(1.2);
   transition: all ease-in 0.2s;
 }
 
-.dl{
+.dl {
   margin-bottom: 0;
 }
 
-.projet{
+.projet {
+  background: #0FAE96;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 8px 20px 8px 20px;
+  border: solid 1px #0FAE96;
+  font-size: 15px;
+  margin-bottom: 5%;
+  margin-right: 8%;
+  float: right;
+}
+
+.projet2 {
   background: #0FAE96;
   border: none;
   border-radius: 5px;
@@ -187,40 +206,26 @@ h3{
   display: left;
   font-size: 15px;
   margin-bottom: 5%;
-  margin-left: 2%;
-  float: left;
 }
 
-.projet2{
-  background: #0FAE96;
-  border: none;
-  border-radius: 5px;
-  color: white;
-  padding: 8px 20px 8px 20px;
-  border: solid 1px #0FAE96;
-  display: left;
-  font-size: 15px;
-  margin-bottom: 5%;
-}
-
-.projet:hover{
+.projet:hover {
   background: none;
   color: #0FAE96;
   border: solid 1px #0FAE96;
 }
 
-.projet2:hover{
+.projet2:hover {
   background: none;
   color: #0FAE96;
   border: solid 1px #0FAE96;
 }
 
-footer img{
+footer img {
   width: 15%;
 }
 
 
-.cv{
+.cv {
   position: relative;
   display: flex;
   background: #0FAE96;
@@ -232,7 +237,7 @@ footer img{
   z-index: 2;
 }
 
-.cv:hover{
+.cv:hover {
   position: relative;
   background: none;
   color: #0FAE96;
@@ -240,7 +245,7 @@ footer img{
   z-index: 2;
 }
 
-.fleche{
+.flèche {
   position: relative;
   display: flex;
   margin-top: -30%;
@@ -249,12 +254,12 @@ footer img{
   width: calc(35% - 7.8%);
 }
 
-.home p{
+.home p {
   width: 51%;
   font-size: 20px;
 }
 
-.home h2{
+.home h2 {
   width: 100%;
   color: #0FAE96;
   font-weight: 650;
@@ -262,14 +267,14 @@ footer img{
   margin-bottom: 0px;
 }
 
-.home h3{
+.home h3 {
   width: 100%;
   font-weight: 750;
   margin-bottom: 0%;
   font-size: 100px;
 }
 
-.home h4{
+.home h4 {
   width: calc(100% - 4%);
   font-weight: 750;
   margin-left: 4%;
@@ -277,55 +282,62 @@ footer img{
 }
 
 
-.home{
+.home {
   margin-top: 10%;
   margin-left: 10%;
 }
 
 
-.colonnes4{
+.colonnes4 {
   display: flex;
   margin: 5%;
   justify-content: center;
 }
 
-.colonnes4 div{
+.colonnes4 div {
   margin: 1.5%;
 }
 
-b{
+b {
   color: #0FAE96;
 }
 
+.contenant {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 
-.bloc{
+
+.bloc {
   border-radius: 12px;
   margin: 2%;
   position: relative;
   transition: all 0.5s ease;
-  width: 20%;
+  width: 18%;
   float: left;
+  cursor: pointer;
 }
 
 
 
-.bloc img{
+.bloc img {
   width: 100%;
   margin: auto;
 }
 
-.bloc:hover{
+.bloc:hover {
   transform: scale(1.1);
   transition: all ease-in 0.2s;
 }
 
-.bloc:hover .inte{
-  background-color: rgba(41, 42, 43, 0.85) ;
+.bloc:hover .inte {
+  background-color: rgba(41, 42, 43, 0.85);
   color: white;
   opacity: 100%;
 }
 
-.inte{
+.inte {
   position: absolute;
   top: 0;
   left: 0;
@@ -362,18 +374,22 @@ nav {
   transform: translateX(100%);
   transition: transform 0.5s ease-in-out;
 }
+
 nav ul {
   list-style-type: none;
   padding: 0;
 }
+
 nav ul a {
   color: rgb(255, 255, 255);
   padding: 0.75em 2em;
   display: block;
 }
+
 nav ul a:hover {
   background: #292A2B;
 }
+
 nav .close {
   float: right;
   margin: 2em;
@@ -402,10 +418,12 @@ h1 {
   object-fit: cover;
   height: 11em;
 }
+
 .more-info .title {
   font-weight: bold;
   font-size: 1.25rem;
 }
+
 .more-info .desc {
   line-height: 1.5rem;
 }
@@ -425,27 +443,31 @@ h1 {
 }
 
 @media only screen and (max-width: 680px) {
-  .home p{
+  .home {
+    margin-top: 25%;
+  }
+
+  .home p {
     width: 100%;
     font-size: 20px;
   }
-  
-  .home h2{
+
+  .home h2 {
     width: 100%;
     color: #0FAE96;
     font-weight: 650;
     font-size: 24px;
     margin-bottom: 0px;
   }
-  
-  .home h3{
+
+  .home h3 {
     width: 100%;
     font-weight: 750;
     margin-bottom: 0%;
     font-size: 50px;
   }
-  
-  .home h4{
+
+  .home h4 {
     width: 100%;
     font-weight: 750;
     margin-left: 4%;
@@ -454,40 +476,46 @@ h1 {
 }
 
 @media only screen and (max-width: 920px) {
-  .home p{
+
+  .home {
+    margin-top: 20%;
+  }
+
+  .home p {
     width: 100%;
     font-size: 20px;
   }
-  
-  .home h2{
+
+  .home h2 {
     width: 100%;
     color: #0FAE96;
     font-weight: 650;
     font-size: 24px;
     margin-bottom: 0px;
   }
-  
-  .home h3{
+
+  .home h3 {
     width: 100%;
     font-weight: 750;
     margin-bottom: 0%;
     font-size: 100px;
   }
-  
-  .home h4{
+
+  .home h4 {
     width: 100%;
     font-weight: 750;
     margin-left: 4%;
     font-size: 100px;
   }
 
-  .fleche{
-      position: relative;
-      margin: auto;
-      z-index: -1;
-      width: 60%;
-    }
+  .flèche {
+    position: relative;
+    margin: auto;
+    z-index: -1;
+    width: 60%;
   }
+
+}
 
 @media only screen and (min-width: 920px) {
   .menu {
@@ -503,18 +531,22 @@ h1 {
     background: none;
     margin-right: 4%;
   }
+
   nav svg.close {
     display: none;
   }
+
   nav ul {
     display: flex;
     margin-top: 8%;
   }
+
   nav ul a {
     color: white;
     padding: 0.8em 1.5em;
     font-size: 1rem;
   }
+
   nav ul a:hover {
     background: none;
     text-decoration: underline;
@@ -527,7 +559,7 @@ h1 {
     height: 42em;
   }
 
-  .logo{
+  .logo {
     margin-left: 4%;
   }
 
@@ -537,20 +569,23 @@ h1 {
     width: 40%;
     margin-bottom: 8em;
   }
+
   section.hero .subhead {
     margin-bottom: 3em;
   }
+
   section.hero svg.down-arrow {
     stroke: black;
     position: unset;
   }
+
   section.hero svg.down-arrow path {
     fill: black;
   }
 }
-  
 
-  /* .section1{
+
+/* .section1{
     background-image: url(../image/flèche.png);
     background-size: 30%;
     background-repeat: no-repeat;
@@ -566,19 +601,19 @@ h1 {
 }
 
 @media only screen and (max-width: 1200px) {
-  .bloc{
+  .bloc {
     width: 75%;
   }
 }
 
 @media only screen and (max-width: 900px) {
-  .bloc{
+  .bloc {
     width: 50%;
   }
 }
 
 @media only screen and (max-width: 680) {
-  .bloc{
+  .bloc {
     width: 25%;
   }
 }
@@ -587,70 +622,75 @@ h1 {
   from {
     clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
   }
+
   to {
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
   }
 }
+
 @keyframes moveArrow {
   from {
     transform: translateY(-30px);
   }
+
   to {
     transform: translateY(0);
   }
 }
+
 @keyframes moveDown {
   from {
     transform: translateY(-100px);
   }
+
   to {
     transform: translateY(0);
     opacity: 1;
   }
 }
-}
 
 
 
-@media only screen and (max-width: 500px) {
-  
-  .home h3{
+@media only screen and (max-width: 620px) {
+
+  .home h3 {
     width: 100%;
     font-weight: 750;
     margin-bottom: 0%;
     font-size: 50px;
   }
-  
-  .home h4{
+
+  .home h4 {
     width: 100%;
     font-weight: 750;
     margin-left: 4%;
-    font-size: 60px;
+    font-size: 80px;
   }
 }
 
-.fp-watermark{
+.fp-watermark {
   display: none;
 }
 
-#fp-nav ul li a span, .fp-slidesNav ul li a span{
+#fp-nav ul li a span,
+.fp-slidesNav ul li a span {
   background: white;
 }
 
 @media only screen and (max-width: 1200px) {
-  .bloc{
+  .bloc {
     width: 25%;
   }
 }
 
 @media only screen and (max-width: 920px) {
-  .bloc{
+  .bloc {
     width: 40%;
   }
 }
 
 @media only screen and (max-width: 680) {
-  .bloc{
+  .bloc {
     width: 40%;
   }
 }
