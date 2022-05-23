@@ -240,7 +240,7 @@ footer img{
   z-index: 2;
 }
 
-.flèche{
+.fleche{
   position: relative;
   display: flex;
   margin-top: -30%;
@@ -481,7 +481,7 @@ h1 {
     font-size: 100px;
   }
 
-  .flèche{
+  .fleche{
       position: relative;
       margin: auto;
       z-index: -1;
