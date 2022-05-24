@@ -642,7 +642,7 @@ h1 {
 
   
   .page-footer {
-    margin-top: -250px;
+    margin-top: -200px;
   }
 
   .cont h2{
@@ -804,6 +804,6 @@ h1 {
 
 @media only screen and (max-width: 680px) {
   .bloc {
-    width: 45%;
+    width: 40%;
   }
 }
