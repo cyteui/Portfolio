@@ -80,12 +80,12 @@
 
     <div class="section section2">
 
-      <article>
+      <div class="cont">
         <h2>Services<b>.</b></h2>
-        <section>
+        <div class="tx">
           <p>Our team members are experts in all facets of the design industry <br> including: print design,
             illustration, branding, identity and more.</p>
-        </section>
+          </div>
 
         <div class="row container-services">
 
@@ -130,7 +130,7 @@
 
         </div>
 
-      </article>
+      </div>
 
     </div>
 
@@ -218,15 +218,15 @@
     <div class="section section4">
 
       <footer class="page-footer">
-        <article>
+        <div>
           <h2>Contact<b>.</b></h2>
-          <section>
+          <div>
             <p>Truth is a deep kindness that teaches us to be content in our everyday life and share <br> with the
               people the same happiness. the feeling of sunday is the same everywhere : <br> heavy, melancholy, standing
               still.</p>
 
-            <img src="Image/Cyril.svg" alt="">
-            <article class="colonnes4">
+            <img class="logos" src="Image/Cyril.svg" alt="">
+            <div class="colonnes4">
               <a href="https://www.facebook.com/cycyh.baudoin/" target="_blank">
                 <img class="rs" src="Image/fb.svg" alt="photo cyril">
               </a>
@@ -239,12 +239,12 @@
               <a href="https://www.linkedin.com/in/cyril-baudoin-082805220/" target="_blank">
                 <img class="rs" src="Image/link.svg" alt="photo cyril">
               </a>
-            </article>
+            </div>
 
             <a href="#section1" class="projet2">Retour en haut ↑</a>
 
-          </section>
-        </article>
+          </div>
+        </div>
       </footer>
 
 
@@ -272,7 +272,7 @@
 
     tl.to('h1', { 'clip-path': 'polygon(0% 50%, 50% 50%, 50% 0%, 0% 0%)', opacity: 1, y: 0, duration: 1 })
     tl.to('.form', { 'clip-path': 'polygon(0% 50%, 50% 50%, 50% 0%, 0% 0%)', opacity: 1, y: 0 }, "-=1")
-    tl.from('.section', { scaleY: 0, stagger: .1 }, "-=1")
+    tl.from('.tx', { scaleY: 0, stagger: .1 }, "-=1")
     tl.from('.anim2', { scaleY: 0, stagger: .1 }, "-=3")
     tl.from('.flèche', { scaleY: 0, stagger: .2 }, "-=3")
     tl.from(flagPoles, { stagger: 1, opacity: 0, transform: 'translateY(100px)' }, "-=2")

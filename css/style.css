@@ -115,7 +115,7 @@ h2 {
   margin-bottom: 2%;
 }
 
-article h1 {
+.cont h1 {
   margin-bottom: 3%;
 }
 
@@ -138,16 +138,16 @@ a:hover {
 
 }
 
-article h2 {
+.cont h2 {
   text-align: center;
-  margin-bottom: 5%;
+  margin-bottom: 3%;
 }
 
-section {
+.tx {
   text-align: center;
 }
 
-.section3 h2 {
+.tx h2 {
   margin-bottom: 5%;
 }
 
@@ -191,9 +191,10 @@ h3 {
   padding: 8px 20px 8px 20px;
   border: solid 1px #0FAE96;
   font-size: 15px;
-  margin-bottom: 5%;
+  margin-bottom: 15%;
   margin-right: 8%;
   float: right;
+  text-decoration: none;
 }
 
 .projet2 {
@@ -206,18 +207,21 @@ h3 {
   display: left;
   font-size: 15px;
   margin-bottom: 5%;
+  text-decoration: none;
 }
 
 .projet:hover {
   background: none;
   color: #0FAE96;
   border: solid 1px #0FAE96;
+  text-decoration: none;
 }
 
 .projet2:hover {
   background: none;
   color: #0FAE96;
   border: solid 1px #0FAE96;
+  text-decoration: none;
 }
 
 footer img {
@@ -235,6 +239,7 @@ footer img {
   padding: 8px 50px 8px 50px;
   border: solid 1px #0FAE96;
   z-index: 2;
+  text-decoration: none;
 }
 
 .cv:hover {
@@ -243,6 +248,7 @@ footer img {
   color: #0FAE96;
   border: solid 1px #0FAE96;
   z-index: 2;
+  text-decoration: none;
 }
 
 .flèche {
@@ -256,7 +262,7 @@ footer img {
 
 .home p {
   width: 51%;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .home h2 {
@@ -448,8 +454,7 @@ h1 {
   }
 
   .home p {
-    width: 100%;
-    font-size: 20px;
+    font-size: 12px;
   }
 
   .home h2 {
@@ -473,6 +478,96 @@ h1 {
     margin-left: 4%;
     font-size: 50px;
   }
+
+  .flèche {
+    position: relative;
+    z-index: -1;
+    width: 60%;
+  }
+
+  .bloc {
+    width: 40%;
+  }
+
+  .card{
+    width: 100%;
+    padding: 1%;
+    margin-bottom: 20px;
+  }
+
+  .card h5{
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+
+  .card p{
+    font-size: 13px;
+  }
+
+  .card img{
+    width: 25%;
+    margin: 0;
+  }
+
+  h2{
+    margin: auto;
+    margin-bottom: 30px;
+    margin-top: 50px;
+    font-size: 50px;
+  }
+
+  h3{
+    margin: auto;
+    margin-bottom: 50px;
+    font-size: 30px;
+  }
+
+  p{
+    margin: auto;
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+
+  .inte h3{
+    font-size: 20px;
+  }
+
+  .page-footer p{
+    margin-bottom: 50px;
+    width: 80%;
+  }
+
+  .logos{
+    margin-bottom: 50px;
+    width: 30%;
+  }
+
+  .page-footer .rs{
+    margin: 2px;
+    margin-bottom: 50px;
+    width: 100%;
+    padding: 5px;
+    
+  }
+
+  .cv{
+    padding: 8px 30px 8px 30px;
+    border: solid 1px #0FAE96;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+
+
+
+.fp-watermark {
+  display: none;
+}
+
+#fp-nav ul li a span,
+.fp-slidesNav ul li a span {
+  background: white;
+}
+
 }
 
 @media only screen and (max-width: 920px) {
@@ -482,8 +577,8 @@ h1 {
   }
 
   .home p {
-    width: 100%;
-    font-size: 20px;
+    width: 80%;
+    font-size: 14px;
   }
 
   .home h2 {
@@ -491,28 +586,42 @@ h1 {
     color: #0FAE96;
     font-weight: 650;
     font-size: 24px;
-    margin-bottom: 0px;
+    margin-top: -60px;
   }
 
   .home h3 {
     width: 100%;
     font-weight: 750;
     margin-bottom: 0%;
-    font-size: 100px;
+    font-size: 80px;
   }
 
   .home h4 {
-    width: 100%;
+    width: 96%;
     font-weight: 750;
     margin-left: 4%;
-    font-size: 100px;
+    font-size: 80px;
   }
 
   .flèche {
     position: relative;
     margin: auto;
+    margin-right: 75%;
     z-index: -1;
-    width: 60%;
+    width: 35%;
+  }
+
+  .bloc {
+    width: 40%;
+  }
+
+  nav {
+    margin-bottom: 5px;
+  }
+  .tx{
+    margin: auto;
+    margin-bottom: 25px;
+    width: 80%;
   }
 
 }
@@ -612,11 +721,6 @@ h1 {
   }
 }
 
-@media only screen and (max-width: 680) {
-  .bloc {
-    width: 25%;
-  }
-}
 
 @keyframes introLoad {
   from {
@@ -649,32 +753,10 @@ h1 {
   }
 }
 
-
-
-@media only screen and (max-width: 620px) {
-
-  .home h3 {
-    width: 100%;
-    font-weight: 750;
-    margin-bottom: 0%;
-    font-size: 50px;
+@media only screen and (max-width: 1200px) {
+  .bloc {
+    width: 25%;
   }
-
-  .home h4 {
-    width: 100%;
-    font-weight: 750;
-    margin-left: 4%;
-    font-size: 80px;
-  }
-}
-
-.fp-watermark {
-  display: none;
-}
-
-#fp-nav ul li a span,
-.fp-slidesNav ul li a span {
-  background: white;
 }
 
 @media only screen and (max-width: 1200px) {
@@ -685,12 +767,14 @@ h1 {
 
 @media only screen and (max-width: 920px) {
   .bloc {
-    width: 40%;
+    width: 35%;
   }
-}
 
-@media only screen and (max-width: 680) {
-  .bloc {
-    width: 40%;
+  .projet{
+    padding: 5px 15px 5px 15px;
+    border: solid 1px #0FAE96;
+    font-size: 13px;
+    margin-top: 10px;
+    margin-right: 13%;
   }
 }
