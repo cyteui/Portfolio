@@ -469,14 +469,14 @@ h1 {
     width: 100%;
     font-weight: 750;
     margin-bottom: 0%;
-    font-size: 50px;
+    font-size: 40px;
   }
 
   .home h4 {
     width: 100%;
     font-weight: 750;
     margin-left: 4%;
-    font-size: 50px;
+    font-size: 40px;
   }
 
   .flèche {
@@ -491,21 +491,21 @@ h1 {
 
   .card{
     width: 100%;
-    padding: 1%;
+    padding: 2%;
     margin-bottom: 20px;
   }
 
   .card h5{
-    font-size: 16px;
+    font-size: 18px;
     margin-bottom: 10px;
   }
 
   .card p{
-    font-size: 13px;
+    font-size: 12px;
   }
 
   .card img{
-    width: 25%;
+    width: 30%;
     margin: 0;
   }
 
@@ -529,7 +529,7 @@ h1 {
   }
 
   .inte h3{
-    font-size: 20px;
+    font-size: 14px;
   }
 
   .page-footer p{
@@ -579,6 +579,7 @@ h1 {
   .home p {
     width: 80%;
     font-size: 14px;
+    float: left;
   }
 
   .home h2 {
@@ -593,14 +594,14 @@ h1 {
     width: 100%;
     font-weight: 750;
     margin-bottom: 0%;
-    font-size: 80px;
+    font-size: 60px;
   }
 
   .home h4 {
     width: 96%;
     font-weight: 750;
     margin-left: 4%;
-    font-size: 80px;
+    font-size: 60px;
   }
 
   .flèche {
@@ -608,7 +609,7 @@ h1 {
     margin: auto;
     margin-right: 75%;
     z-index: -1;
-    width: 35%;
+    width: 70%;
   }
 
   .bloc {
@@ -620,8 +621,21 @@ h1 {
   }
   .tx{
     margin: auto;
-    margin-bottom: 25px;
-    width: 80%;
+    margin-bottom: 35px;
+    width: 90%;
+  }
+
+  .page-article {
+    margin-top: -10px;
+  }
+
+  
+  .page-footer {
+    margin-top: -350px;
+  }
+
+  .cont h2{
+    margin-top: -10px;    
   }
 
 }
@@ -709,12 +723,6 @@ h1 {
   }
 }
 
-@media only screen and (max-width: 1200px) {
-  .bloc {
-    width: 75%;
-  }
-}
-
 @media only screen and (max-width: 900px) {
   .bloc {
     width: 50%;
@@ -767,14 +775,18 @@ h1 {
 
 @media only screen and (max-width: 920px) {
   .bloc {
-    width: 35%;
+    width: 45%;
+  }
+
+  .page-article {
+    margin: auto 10%;
   }
 
   .projet{
-    padding: 5px 15px 5px 15px;
+    padding: 5px 10px 5px 10px;
     border: solid 1px #0FAE96;
     font-size: 13px;
     margin-top: 10px;
-    margin-right: 13%;
+    margin-right: 3%;
   }
 }
