@@ -462,6 +462,7 @@ h1 {
 
   .home p {
     font-size: 12px;
+    margin-bottom: 20px;
   }
 
   .home h2 {
@@ -469,7 +470,7 @@ h1 {
     color: #0FAE96;
     font-weight: 650;
     font-size: 24px;
-    margin-bottom: 0px;
+    margin-bottom: 20px;
   }
 
   .home h3 {
@@ -484,6 +485,7 @@ h1 {
     font-weight: 750;
     margin-left: 4%;
     font-size: 40px;
+    margin-bottom: 50px;
   }
 
   .flèche {
@@ -562,6 +564,7 @@ h1 {
     border: solid 1px #0FAE96;
     font-size: 14px;
     margin-top: 10px;
+    margin-bottom: 50px;
   }
 
 
@@ -783,7 +786,7 @@ h1 {
 
 @media only screen and (max-width: 920px) {
   .bloc {
-    width: 45%;
+    width: 25%;
   }
 
   .page-article {
@@ -796,5 +799,11 @@ h1 {
     font-size: 13px;
     margin-top: 10px;
     margin-right: 3%;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  .bloc {
+    width: 45%;
   }
 }
